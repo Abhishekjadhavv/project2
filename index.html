@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---custom css---- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- ----- ---custom js---- -->
+    <script src="script.js" defer></script>
+
+    <title>E - Commerce website</title>
+
+</head>
+
+<body>
+
+    <!-- ---------- header section start------- -->
+    <header class="header">
+        <div class="search-bar flex padding justify-between">
+            <div class="logo flex gap-5"><i class='bx bxs-shopping-bag'></i> <span>Shopping.</span></div>
+            <form action="#" class="search flex">
+                <input type="search" placeholder="search products">
+                <label for="search-icon"><i class='bx bx-search' id="search-icon"></i></label>
+            </form>
+        </div>
+
+        <nav class="navbar flex padding justify-between">
+            <div class="bar">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="menu-list flex gap-15">
+                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#Arrival">Arrival</a></li>
+                <li><a href="#Featured">Featured</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Deal">Deal</a></li>
+            </ul>
+            <div class="icons flex gap-10">
+                <i class='bx bxs-heart'></i>
+                <i class='bx bxs-cart'></i>
+                <i class='bx bxs-user'></i>
+            </div>
+        </nav>
+    </header>
+    <!-- ---------- header section end------- -->
+    <main>
+
+        <!-- ---------- Home section start------- -->
+        <section class="home-section" id="Home">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-1">
+                        <div class="slide-content">
+                            <h1>Heavy discounts</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus,
+                                consequatur maiores temporibus est eveniet!</p>
+                            <button class="btn">Discover</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-2">
+                        <div class="slide-content">
+                            <h1>Latest gadgets</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus,
+                                consequatur maiores temporibus est eveniet!</p>
+                            <button class="btn">Discover</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-3">
+                        <div class="slide-content">
+                            <h1>Trending shoes</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus,
+                                consequatur maiores temporibus est eveniet!</p>
+                            <button class="btn">Discover</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-4">
+                        <div class="slide-content">
+                            <h1>fresh grocerise</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus,
+                                consequatur maiores temporibus est eveniet!</p>
+                            <button class="btn">Discover</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- ---------- Home section end------- -->
+
+        <section class="Arrival padding" id="Arrival">
+            <div class="line">
+                <div class="arrival-text">new arrivals</div>
+            </div>
+
+            <div class="arrival-content grid grid-col-3 grid-center gap-15">
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img1.jpg" alt=""></div>
+                    <div class="img-name padding">Smart Tv</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/- </span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img2.jpg" alt=""></div>
+                    <div class="img-name padding">Game Console</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/- </span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img3.jpg" alt=""></div>
+                    <div class="img-name padding">Latest shoes</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/-</span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img4.jpg" alt=""></div>
+                    <div class="img-name padding">Smartphones</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/-</span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img5.jpg" alt=""></div>
+                    <div class="img-name padding">Branded T-shirt</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/-</span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrival-box">
+                    <div class="arrival-img"><img src="img/arr_img6.jpg" alt=""></div>
+                    <div class="img-name padding">Amazing Speakers</div>
+                    <div class="arrival-header flex justify-between padding">
+                        <div class="arrival-price flex"><span class="red">₹1000/-</span> <span
+                                class="under-line">1550/-</span></div>
+                        <div class="header-icons">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="Featured padding" id="Featured" style="background-color: #2980b9;">
+            <div class="line" style="background-color: #fff;">
+                <div class="arrival-text">Featured Product</div>
+            </div>
+            <div class="featured-box">
+                <div class="featured-product-box padding flex justify-center gap-25">
+                    <div class="featured-imges flex gap-10">
+                        <div class="featured-big-img">
+                            <img src="img/watch1.jpg" alt="">
+                        </div>
+
+                        <div class="featured-small-imges flex justify-center gap-10">
+                            <img src="img/watch1.jpg" alt="">
+                            <img src="img/watch2.jpg" alt="">
+                            <img src="img/watch3.jpg" alt="">
+                            <img src="img/watch4.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="featured-content">
+                        <h1>Smart watches</h1>
+                        <div class="featured-icons flex">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <span>(500+) Reviews</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim veritatis iure dolores
+                            tenetur ipsa fuga, amet placeat sed consectetur.</p>
+
+                        <div class="featured-footer flex gap-25">
+                            <div class="featured-price"><strong>₹1000</strong> <span>₹1500</span></div>
+                            <button class="btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Gallery padding" id="Gallery">
+            <div class="line">
+                <div class="arrival-text">Product Gallery</div>
+            </div>
+
+            <div class="gallery-buttons flex justify-center ">
+                <button class="btn active">All</button>
+                <button class="btn">Shoes</button>
+                <button class="btn">Laptop</button>
+                <button class="btn">Headphone</button>
+                <button class="btn">Smartphone</button>
+            </div>
+
+
+            <div class="gallery-boxes grid grid-col-g gap-15"></div>
+        </section>
+
+
+
+        <section class="Deal padding" id="Deal">
+            <div class="line">
+                <div class="arrival-text">Best Deals</div>
+            </div>
+
+            <div class="offer-section grid grid-col-2 gap-25  ">
+                 <div class="offer-box padding flex justify-center">
+                    <h1>Latest Laptop</h1>
+                    <p>Upto 25% Off On First Purchase </p>
+                    <button class="btn">Expore</button>
+                 </div>
+
+                 <div class="offer-box-1 padding flex justify-center">
+                    <h1>New Headphone</h1>
+                    <p>Upto 25% Off On First Purchase </p>
+                    <button class="btn">Expore</button>
+                </div>
+            </div>
+
+            <div class="deal-4-box grid grid-col-4 gap-15">
+                <div class="deal-box padding flex">
+                    <i class='bx bxs-train'></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sunt.</p>
+                </div>
+                <div class="deal-box padding flex">
+                    <i class='bx bx-time'></i>
+                    <h3>24 X 7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sunt.</p>
+                </div>
+                <div class="deal-box padding flex">
+                    <i class='bx bxs-credit-card-front'></i>
+                    <h3>Easy Payments</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sunt.</p>
+                </div>
+                <div class="deal-box padding flex">
+                    <i class='bx bxs-box'></i>
+                    <h3>10 Day Replacements</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sunt.</p>
+                </div>
+            </div>
+
+        </section>
+       
+        <section class="padding letterNews flex justify-center">
+               <h1>Newsletter</h1>
+               <p>Get In Touch For Latest Discounts And Update</p>
+               <div class="input-box flex gap-5">
+                 <input type="email" placeholder="Enter Your Email">
+                 <button class="btn">Submit</button>
+               </div>
+        </section>
+    </main>
+  
+    <footer class="footer padding">
+        <p>Created By <span>Mr.Abhishek jadhav</span> | All Rights Reserved.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
